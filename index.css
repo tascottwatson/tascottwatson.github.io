@@ -5,18 +5,28 @@ div {
 
 h1 {
   color:white;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {
   color: white;
-  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
 }
 
 b {
   color: white;
   font-family: 'Lato', sans-serif;
 }
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  padding: 15px;
+}
+
 
 html {
 	background-size: cover;
