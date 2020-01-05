@@ -1,6 +1,21 @@
-div{font-family: 'Girassol', cursive;}
+div {
+  font-family: 'Girassol', cursive;
+}
 
-h1{font-family: 'Anton', sans-serif;}
-h3{font-family: 'Anton', sans-serif;}
+h1 {
+  font-family: 'Anton', sans-serif;
+}
 
-b{font-family: 'Indie Flower', cursive;}
+h3 {font-family: 'Anton', sans-serif;
+}
+
+b {font-family: 'Indie Flower', cursive;
+}
+
+html {
+	background-size: cover;
+	background: url("black.jpg") no-repeat center center fixed;
+	background-blend-mode: darken;
+	transition: 3s;
+}
+html * { transition: none; }
