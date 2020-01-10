@@ -1,23 +1,44 @@
-div {
-  color: white;
-  font-family: 'Girassol', cursive;
+html {
+  transition: none;
+  background-size: cover;
+  background: url("black.jpg") no-repeat center center fixed;
+  background-blend-mode: darken;
+  transition: 3s;
 }
 
-h1 {
-  color:white;
+*{
+  transition: none;
   font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.honorable {
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+h2 {
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+.stats{
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.icons{
+  margin: 2px;
+  padding: 0px;
+  vertical-align: middle;
 }
 
 h3 {
-  color: white;
   font-size: 60px;
-  font-family: 'Lato', sans-serif;
+  margin-bottom: 10px;
 }
 
-b {
-  color: white;
-  font-family: 'Lato', sans-serif;
-}
 
 .content {
   max-width: 1000px;
@@ -28,13 +49,6 @@ b {
 }
 
 
-html {
-	background-size: cover;
-	background: url("black.jpg") no-repeat center center fixed;
-	background-blend-mode: darken;
-	transition: 3s;
-}
-html * { transition: none; }
 
 .preload-images{
   background: url("static/black.jpg") no-repeat -9999px -9999px;
