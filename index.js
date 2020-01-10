@@ -1,4 +1,4 @@
-var bgImageArray = ["lamarcus.jpg", "paulgeorge.jpg", "anthony.jpg"],
+var bgImageArray = ["static/lamarcus.jpg", "static/paulgeorge.jpg", "static/anthony.jpg"],
 base = "",
 secs = 6;
 

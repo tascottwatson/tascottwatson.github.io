@@ -1,0 +1,44 @@
+div {
+  color: white;
+  font-family: 'Girassol', cursive;
+}
+
+h1 {
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+b {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  padding: 15px;
+}
+
+
+html {
+	background-size: cover;
+	background: url("black.jpg") no-repeat center center fixed;
+	background-blend-mode: darken;
+	transition: 3s;
+}
+html * { transition: none; }
+
+.preload-images{
+  background: url("static/black.jpg") no-repeat -9999px -9999px;
+  background: url("static/paulgeorge.jpg") no-repeat -9999px -9999px;
+  background: url("static/anthony.jpg") no-repeat -9999px -9999px;
+  background: url("static/lamarcus.jpg") no-repeat -9999px -9999px;
+}
