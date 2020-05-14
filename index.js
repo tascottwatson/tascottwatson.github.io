@@ -1,4 +1,4 @@
-var bgImageArray = ["static/lamarcus.jpg", "static/paulgeorge.jpg", "static/anthony.jpg"],
+function background(bgImageArray){
 base = "",
 secs = 6;
 
@@ -21,3 +21,4 @@ document.documentElement.style.backgroundSize ="cover";
 	}
 }
 backgroundSequence();
+};
